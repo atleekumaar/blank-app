@@ -137,7 +137,7 @@ with st.sidebar:
     st.markdown("- **Classifier:** Logistic Regression")
     st.markdown("- **Object Detection:** Underwater Rock / Naval Mine")
     st.markdown("---")
-    st.info("💡 **Tip:** Sample data test karne ke liye niche buttons ka upyog karein.")
+    st.info("💡 **Tip:** For sample data testing use below buttons.")
 
 # Main Header
 st.markdown('<h1 class="glow-header">⚓ SONAR SUBMARINE RADAR</h1>', unsafe_allow_html=True)
@@ -150,7 +150,7 @@ with col1:
     st.markdown("""
     <div class="glass-card">
         <h3 style="color: #00F2FE; margin-top:0;">📡 SONAR Signal Input</h3>
-        <p style="color: #94A3B8; font-size: 0.9rem;">Comma se separated 60 numerical sonar frequency values daalein:</p>
+        <p style="color: #94A3B8; font-size: 0.9rem;">Give 60 numerical values with comma separeted:</p>
     </div>
     """, unsafe_allow_html=True)
 
